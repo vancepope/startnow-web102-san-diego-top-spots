@@ -1,0 +1,56 @@
+#map {
+  height: 400px;
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#infoWindow{
+  width: 150px;
+}
+#title {
+  font-size: 3em;
+  border: 1px solid black;
+  width: 100%;
+  background-color: #A9A9A9;
+  border-radius: 5px;
+  height: 52px;
+}
+.tableInfo {
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+}
+.tableRow{  
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #A9A9A9;
+  text-align: center;
+}
+.tableHeader{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 2.5em;
+  padding: 5px;
+  background-color: #A9A9A9;
+  height:52px;
+}
+.tableData{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #A9A9A9;
+  height: 52px;
+}
+body{
+  background-color: #808080;
+  text-align: center;
+  display: block;
+  background: radial-gradient(#808080, #A9A9A9, #808080);
+}
